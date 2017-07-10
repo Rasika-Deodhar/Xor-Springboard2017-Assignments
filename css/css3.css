@@ -1,0 +1,8 @@
+#p1
+{
+	text-transform:uppercase;
+}
+#p2::first-letter,#p3::first-letter
+{
+	text-transform:uppercase;
+}

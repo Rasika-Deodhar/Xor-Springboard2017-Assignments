@@ -1,0 +1,11 @@
+div
+{
+	border:1px solid red;
+	display:inline;
+	outline:2px dotted #00ff00;
+}
+
+span
+{
+	font-weight:200px;
+}

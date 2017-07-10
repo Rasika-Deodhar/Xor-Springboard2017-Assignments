@@ -1,0 +1,19 @@
+h1
+{
+	font-family:serif;
+}
+h2
+{
+	text-decoration:line-through;
+}
+h3
+{
+	text-decoration:underline;
+}
+h4
+{
+	background-color:#4c1a07;
+	display:inline;
+	animation: flash 2s ease infinite;
+	background-color:#ff0000 !important;
+}
