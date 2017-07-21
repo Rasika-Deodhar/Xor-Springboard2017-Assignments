@@ -1,0 +1,72 @@
+echo hello world - prints whatever we write after it
+--------------------------------------
+passwd - changes password of current user; remains unchanged if typed the same password
+--------------------------------------
+date - gives today's date with format:
+Day Month Date Time Location Year
+--------------------------------------
+hostname-gives the host name
+--------------------------------------
+arch - gives wether 64 bit or 32 bit architecture
+--------------------------------------
+uname -a =>
+uname-> specifies the system,get it's details,get details about the system
+-a with uname gives info of -m -n -r -s -v together
+-m = current hardware platform
+-n = name of system
+-r = current release level of OS
+-s = name of OS
+--------------------------------------
+ dmesg | more(you may need to press q to quit)
+
+display message or direct message-prints the message buffer of the kernel
+contains the messages produced by the device drivers
+--------------------------------------
+uptime =gives time in military time, normal time, number of users,and avergae load for past 1 min, 5 min and 15mins
+--------------------------------------
+who am i = prints username and its creation time
+--------------------------------------
+who = gives usernames with time
+--------------------------------------
+id = gives uid(userid) gid(group id)
+--------------------------------------
+last = info of last login of user
+--------------------------------------
+finger = 
+E-unable to install
+--------------------------------------
+w = window size (number of columns of window)
+--------------------------------------
+top = gives info about the user and running processes
+--------------------------------------
+echo $SHELL = gives folder of shell
+--------------------------------------
+$ echo {con,pre}{sent,fer}{s,ed} = gives all possible combinations of the sets provided.
+--------------------------------------
+$ man "automatic door" =
+--------------------------------------
+$ man ls = gives manual of ls command
+ls - list directory contents
+--------------------------------------
+$ man who = gives manual of who command
+who - shows who is logged on
+--------------------------------------
+$ who can tell me why i got license
+--------------------------------------
+$ lost =
+--------------------------------------
+$ clear = clears the terminal screen
+--------------------------------------
+$ cal 2000 = calendar of the year 2000
+--------------------------------------
+$ cal 9 1752 = calendar of the month and year specified
+--------------------------------------
+$ bc -l = gives date of before christ
+--------------------------------------
+$ echo 5+4 | bc -l
+--------------------------------------
+$ yes please = gives print till infinity
+--------------------------------------
+$ time sleep 5 = sleeps for specified secs
+--------------------------------------
+$ history = gives all commands executed till now
