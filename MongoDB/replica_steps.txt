@@ -1,0 +1,9 @@
+start mongod --replSet myRes --logpath "C:\data\node1\1.log" --dbpath "c:\data\node1" --port 27017
+
+rsconf = { _id: "myRes", members: [ { _id: 0, host: "Rasika-D:27017" } ] }
+
+rs.conf()
+
+rs.add("Ras-Deo:27018")
+
+db.getMongo().setReadPref('secondary')

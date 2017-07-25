@@ -327,189 +327,213 @@ db.Emp.aggregate(
         "last3" : { "$regex": /[a-zA-Z]{3}$/}
     }
 }
+)
+
+db.Emp.find().forEach(function(doc)
+{
+var str=doc.ename.substr(doc.ename.length-3,3);
+print(str);
+}
+)
+
+/*45*/
+db.Emp.find().forEach(function(doc)
+{
+    var str1 = doc.ename;
+    doc.ename = doc.ename.replace('a','e');
+    print(str1 + " = " + doc.ename);
+}
+)
+
+/*46*/
+db.Emp.find().forEach(function(doc)
+{
+var str=doc.ename.search("ar");
+var name=doc.ename;
+    if(str!=-1)
+    {
+       print(name+ " " +str);
+    }
+    else
+    {
+        print(name+ " has no occurance");
+    }
+
+}
+)
+
+/*47*/
+db.Emp.find().forEach(function(doc)
+{
+    var name = doc.ename;
+    var sal = doc.sal;
+    sal = sal/1000;
+    sal = Math.round(sal);
+    sal*=1000;
+    print(name + " has salary = " + sal);
+}
+)
+
+db.Emp.aggregate(
+{
+    "$project":
+    {
+        "ename" : 1,
+        "sal" : Math.round("($sal/1000)")*1000
+    }
+}
+)
+
+/*48*/
+db.Emp.find().forEach(function(doc)
+{
+    var name = doc.ename;
+    var sal = doc.sal;
+    sal = sal/30;
+    sal = Math.floor(sal);
+    print(name + " has salary = " + sal);
+}
+)
+
+/*49*/
+db.Emp.find().forEach(function(doc)
+{
+    var name = doc.ename;
+    var sal = doc.sal;
+    var bonus = (0.2*sal);
+    if(bonus>500)
+    {
+        bonus=500;
+    }
+    print(name + " has bonus = " + bonus);
+}
+)
+
+/*50*/
+db.Emp.find().forEach(function(doc)
+{
+    var name = doc.ename;
+    var sal = doc.sal;
+    var bonus = (0.2*sal);
+    if(bonus>200)
+    {
+        bonus=200;
+    }
+    print(name + " has bonus = " + bonus);
+}
+)
+
+/*51*/
+db.Emp.aggregate(
+{
+    "$project" : {
+        "_id" : 1,
+        "daySince" : {
+            "$divide" : [
+                {
+                    "$subtract" : [
+                        new ISODate(),
+                        "$hiredate"
+                    ]
+                },
+                86400000 //1000*60*60*24
+            ]
+        }
+    }
+}
+)
+
+/*52*/
+db.Emp.aggregate(
+{
+    "$project" : {
+        "_id" : 1,
+        "daySince" : {
+            "$divide" : [
+                {
+                    "$subtract" : [
+                        new ISODate(),
+                        "$hiredate"
+                    ]
+                },
+                1036800000 //1000*60*60*24*12
+            ]
+        }
+    }
+}
+)
+
+/*53*/
+db.Emp.find().forEach(function(doc)
+{
+    var date = doc.hiredate;
+    var curr = new ISODate();
+    
+    print(doc.ename + " has completed " + (curr-date)/86400000 + " days, " + (curr-date)/1036800000 + " months and " + (curr-date)/31536000000 +" years.")
+})
+
+/*54*/
+
+
+db.sales.aggregate( [ { $project: { item: 1, dateDifference: { $subtract: [ "$date", 5 * 60 * 1000 ] } } } ] )
+
+/********************************MONGO DB COMPLEX QUERIES*******************/
+
+/*1*/
+db.Emp.aggregate(
+{
+    "$project":
+    {
+        "ename":1,
+        "dname":1,
+        "sal": 1
+    }
+},
+{
+       "$group":
+        {
+           _id: "$item",
+            "$ename":1,
+        "$dname":1,
+        "$sal": 1,
+           minsal: { $min: "$sal" }
+        }
+}
+)
+db.Emp.find().sort(sal).limit(1)
+db.Emp.aggregate(
+   [
+     { $project : {ename:1,sal:1,dname:1} },
+     { $sort : { sal : 1} },
+     { $limit : 1 }
+   ]
 )
-
-db.Emp.find().forEach(function(doc)
-{
-var str=doc.ename.substr(doc.ename.length-3,3);
-print(str);
-}
+
+/*2*/
+db.Emp.aggregate(
+[
+   {$group : {_id: "$deptno", salary : {$min : "$sal"}}}
+]
 )
 
-/*45*/
-db.Emp.find().forEach(function(doc)
-{
-    var str1 = doc.ename;
-    doc.ename = doc.ename.replace('a','e');
-    print(str1 + " = " + doc.ename);
-}
-)
+/*3*/
+db.Emp.find({job:"Clerk"})
 
-/*46*/
-db.Emp.find().forEach(function(doc)
-{
-var str=doc.ename.search("ar");
-var name=doc.ename;
-    if(str!=-1)
-    {
-       print(name+ " " +str);
-    }
-    else
-    {
-        print(name+ " has no occurance");
-    }
+/*6*/
+db.Emp.find()
 
-}
-)
+/*7*/
+db.Emp.find({},{deptno:1,dname:1,ename:1}).sort({deptno:1})
 
-/*47*/
-db.Emp.find().forEach(function(doc)
-{
-    var name = doc.ename;
-    var sal = doc.sal;
-    sal = sal/1000;
-    sal = Math.round(sal);
-    sal*=1000;
-    print(name + " has salary = " + sal);
-}
-)
+/*8*/
+db.Emp.find({loc:"New York"},{ename:1,deptno:1,dname:1,loc:1})
 
+/*9*/
 db.Emp.aggregate(
-{
-    "$project":
-    {
-        "ename" : 1,
-        "sal" : Math.round("($sal/1000)")*1000
-    }
-}
-)
-
-/*48*/
-db.Emp.find().forEach(function(doc)
-{
-    var name = doc.ename;
-    var sal = doc.sal;
-    sal = sal/30;
-    sal = Math.floor(sal);
-    print(name + " has salary = " + sal);
-}
-)
-
-/*49*/
-db.Emp.find().forEach(function(doc)
-{
-    var name = doc.ename;
-    var sal = doc.sal;
-    var bonus = (0.2*sal);
-    if(bonus>500)
-    {
-        bonus=500;
-    }
-    print(name + " has bonus = " + bonus);
-}
-)
-
-/*50*/
-db.Emp.find().forEach(function(doc)
-{
-    var name = doc.ename;
-    var sal = doc.sal;
-    var bonus = (0.2*sal);
-    if(bonus>200)
-    {
-        bonus=200;
-    }
-    print(name + " has bonus = " + bonus);
-}
-)
-
-/*51*/
-db.Emp.aggregate(
-{
-    "$project" : {
-        "_id" : 1,
-        "daySince" : {
-            "$divide" : [
-                {
-                    "$subtract" : [
-                        new ISODate(),
-                        "$hiredate"
-                    ]
-                },
-                86400000 //1000*60*60*24
-            ]
-        }
-    }
-}
-)
-
-/*52*/
-db.Emp.aggregate(
-{
-    "$project" : {
-        "_id" : 1,
-        "daySince" : {
-            "$divide" : [
-                {
-                    "$subtract" : [
-                        new ISODate(),
-                        "$hiredate"
-                    ]
-                },
-                1036800000 //1000*60*60*24*12
-            ]
-        }
-    }
-}
-)
-
-/*53*/
-db.Emp.find().forEach(function(doc)
-{
-    var date = doc.hiredate;
-    var curr = new ISODate();
-    
-    print(doc.ename + " has completed " + (curr-date)/86400000 + " days, " + (curr-date)/1036800000 + " months and " + (curr-date)/31536000000 +" years.")
-})
-
-/*54*/
-
-
-db.sales.aggregate( [ { $project: { item: 1, dateDifference: { $subtract: [ "$date", 5 * 60 * 1000 ] } } } ] )
-
-/********************************MONGO DB COMPLEX QUERIES*******************/
-
-/*1*/
-db.Emp.aggregate(
-{
-    "$project":
-    {
-        "ename":1,
-        "dname":1,
-        "sal": 1
-    }
-},
-{
-       "$group":
-        {
-           _id: "$item",
-            "$ename":1,
-        "$dname":1,
-        "$sal": 1,
-           minsal: { $min: "$sal" }
-        }
-}
-)
-
-/*2*/
-db.Emp.aggregate(
-{
-       "$group":
-        {
-           dname:1,
-           minsal: { $min: "$sal" }
-        }
-}
+[
+   {$sort : {s}},
+   {$group : {_id: "$deptno", salary : {$min : "$sal"}}}
+]
 )
 
 db.Emp.find()
