@@ -500,40 +500,42 @@ db.Emp.aggregate(
         }
 }
 )
-db.Emp.find().sort(sal).limit(1)
-db.Emp.aggregate(
-   [
-     { $project : {ename:1,sal:1,dname:1} },
-     { $sort : { sal : 1} },
-     { $limit : 1 }
-   ]
-)
+db.Emp.find().sort(sal).limit(1)
+db.Emp.aggregate(
+   [
+     { $project : {ename:1,sal:1,dname:1} },
+     { $sort : { sal : 1} },
+     { $limit : 1 }
+   ]
+)
 
 /*2*/
 db.Emp.aggregate(
-[
+[
    {$group : {_id: "$deptno", salary : {$min : "$sal"}}}
 ]
 )
-
-/*3*/
-db.Emp.find({job:"Clerk"})
-
-/*6*/
-db.Emp.find()
-
-/*7*/
-db.Emp.find({},{deptno:1,dname:1,ename:1}).sort({deptno:1})
-
-/*8*/
-db.Emp.find({loc:"New York"},{ename:1,deptno:1,dname:1,loc:1})
-
-/*9*/
-db.Emp.aggregate(
+
+/*3*/
+db.Emp.find({job:"Clerk"})
+
+/*6*/
+db.Emp.find()
+
+/*7*/
+db.Emp.find({},{deptno:1,dname:1,ename:1}).sort({deptno:1})
+
+/*8*/
+db.Emp.find({loc:"New York"},{ename:1,deptno:1,dname:1,loc:1})
+
+/*9*/
+db.Emp.aggregate(
 [
-   {$sort : {s}},
-   {$group : {_id: "$deptno", salary : {$min : "$sal"}}}
-]
-)
+   //{ $skip : alreadyRead },
+   //{$project:{ename:1,sal:1,dept:1}},
+   {$group : {_id: "$deptno", salary : {$min : "$sal"}}},
+   {$project:{name:"$_id.ename",salary:"$_id.sal",dept:"$_id.dname"}}
+]
+)
 
 db.Emp.find()
