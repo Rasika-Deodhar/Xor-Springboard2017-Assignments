@@ -1,0 +1,17 @@
+<table border="1" >
+
+    <tr>
+        <th> Title </th>
+        <th> Name </th>
+        <th> Category </th>
+        <th> Description </th>
+        <th> Actions </th>
+    </tr>
+    <tr *ngFor = 'let adv of TableData'>
+        <td> {{adv.Title}}</td>
+        <td> {{adv.Name}}</td>
+        <td> {{adv.Category}}</td>
+        <td> {{adv.Description}}</td>
+        <td> <button type="button">EDIT</button> <button type="button" (click)="DeleteAd(adv)">DELETE</button> </td>
+    </tr>
+</table>

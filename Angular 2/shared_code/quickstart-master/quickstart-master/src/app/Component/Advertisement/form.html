@@ -3,22 +3,52 @@
 
     <div class="form-group row">
         <div class="col-md-3">
+            <label>Title</label>
+            <input type="text" name="title" class="form-control" #TitleRef>
+        </div>
+    </div>
+    <div class="form-group row">
+        <div class="col-md-3">
             <label>Name</label>
-            <input type="text" name="name" class="form-control">
+            <input type="text" [value]='defaultName' name="name" class="form-control" #NameRef>
         </div>
     </div>
     <div class="form-group row">
         <div class="col-md-3">
-            <label>Quantity</label>
-            <input type="text" name="quantity" class="form-control">
+            <label>Category</label>
+            <div class="form-group">
+  <select class="form-control" #CatRef>
+    <option>Furniture</option>
+    <option>Hardware</option>
+    <option>Mobile</option>
+  </select>
+</div>
         </div>
     </div>
     <div class="form-group row">
         <div class="col-md-3">
-            <label>Price</label>
-            <input type="text" name="price" class="form-control">
+            <label>Description</label>
+            <input type="text" name="description" class="form-control" #DescRef>
         </div>
     </div>
-    <button type="button" class="btn btn-primary">ADD PRODUCT</button>
+    <button type="button" class="btn btn-primary" (click)=AddAd(TitleRef.value,NameRef.value,CatRef.value,DescRef.value) #ButtonRef >ADD PRODUCT</button>
+
+    <br> <br>
+
+<!--<table border="1">
+
+    <tr>
+        <th> Title </th>
+        <th> Name </th>
+        <th> Category </th>
+        <th> Description </th>
+    </tr>
+    <tr *ngFor = 'let adv of Arr'>
+        <td> {{adv.Title}}</td>
+        <td> {{adv.Name}}</td>
+        <td> {{adv.Category}}</td>
+        <td> {{adv.Description}}</td>
+    </tr>
+</table>-->
 
 </div>
