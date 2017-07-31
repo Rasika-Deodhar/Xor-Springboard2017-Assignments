@@ -1,4 +1,14 @@
-<table border="1" >
+
+<div class="wrap" align="center">
+   <div class="search">
+      <input type="text" class="searchTerm" placeholder="Enter Title" #SearchRef (keyup)="0">
+      <!--<button type="button" value="Submit" (click)="*ngFor = 'let ad of TableData | SearchRef.value'"></button>-->
+   </div>
+</div>
+
+<br> <br>
+
+<table border="1" align="center" width="80%" style="text-align:center;">
 
     <tr>
         <th> Title </th>
@@ -7,11 +17,18 @@
         <th> Description </th>
         <th> Actions </th>
     </tr>
-    <tr *ngFor = 'let adv of TableData'>
+    <!--<tr *ngFor = 'let adv of TableData'>
         <td> {{adv.Title}}</td>
         <td> {{adv.Name}}</td>
         <td> {{adv.Category}}</td>
         <td> {{adv.Description}}</td>
         <td> <button type="button">EDIT</button> <button type="button" (click)="DeleteAd(adv)">DELETE</button> </td>
+    </tr>-->
+    <tr *ngFor = 'let adv of TableData|Search:SearchRef.value'>
+        <td> {{adv.Title}}</td>
+        <td> {{adv.Name}}</td>
+        <td> {{adv.Category}}</td>
+        <td> {{adv.Description}}</td>
+        <td> <button type="button">EDIT</button> <button type="button" (click)="deleteAdvertise(adv)">DELETE</button> </td>
     </tr>
 </table>

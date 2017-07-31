@@ -1,0 +1,34 @@
+
+<form #productForm="ngForm" (ngSubmit)="onSubmit(productForm.value)" style="margin-top:60px;width:40%;margin-left:150px;" novalidate>
+
+<div class="form-group">
+<input type="text" name="name" class="form-control" placeholder="Name" required minlength="5" #nameModelRef="ngModel" ngModel>
+<div *ngIf="nameModelRef.errors && nameModelRef.touched" class="alert alert-danger">
+<div [hidden]="!nameModelRef.errors.required" >Please enter your name </div>
+<div [hidden]="!nameModelRef.errors.minlength"> Name length should be minimum 5 characters </div>
+</div>
+</div>
+
+<div class="form-group">
+<input type="text" name="quantity" class="form-control" placeholder="Quantity" required #qtyModelRef="ngModel" ngModel>
+<div [hidden]="qtyModelRef.valid || qtyModelRef.untouched || qtyModelRef.pristine" class="alert alert-danger">
+Please enter the quantity
+</div>
+</div>
+
+<!--<div class="form-group">
+<input type="text" name="price" class="form-control" placeholder="Price" required #priceModelRef="ngModel" ngModel>
+<div [hidden]="priceModelRef.valid || priceModelRef.untouched || priceModelRef.pristine" class="alert alert-danger">
+Please enter the price
+</div>
+</div>
+
+<div class="form-group">
+  <select class="form-control" #catRef required #catModelRef="ngModel" ngModel>
+    <option>Furniture</option>
+    <option>Hardware</option>
+    <option>Mobile</option>
+  </select>
+</div>-->
+<button type="submit" class="btn btn-primary" [disabled]="!productForm.form.valid">ADD PRODUCT</button>
+</form>

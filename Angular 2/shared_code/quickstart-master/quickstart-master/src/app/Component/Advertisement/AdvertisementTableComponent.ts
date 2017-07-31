@@ -1,4 +1,5 @@
 import { Component, EventEmitter} from '@angular/core';
+import { ProductService } from '../../Services/AdvertisementService.Services';
 
 @Component({ 
     selector: 'Advertisement-Table', // HTML Tag 
@@ -11,10 +12,18 @@ export class AdvertisementTableComponent {
     
     TableData :Array<any> = [];
     ArrIndex = new EventEmitter<any>();
+    TableVal:boolean=true;
+    TableFind:boolean=true;
     //AdArr:Array<object>=[];
 
-    DeleteAd(adv:object){
-console.log("Adv = ",adv);
+    constructor(private productService: ProductService) { 
+    //Declaring service dependency 
+    //console.log("Products = ", productService.getAdvertise()); 
+    this.TableData = productService.getAllAdvertises();
+  }
+
+    deleteAdvertise(adv:any){
+//console.log("Adv = ",adv);
     // let i=this.AdArr.length;
     // console.log("Adv = ",adv);
     //     while(i--)
@@ -25,6 +34,11 @@ console.log("Adv = ",adv);
     //         }
     //     }
 
-        this.ArrIndex.emit(adv);
+        //this.ArrIndex.emit(adv);
+        this.productService.deleteAdvertise(adv);
          }
+
+// callPipe(searchText:any){
+
+// }
 }
