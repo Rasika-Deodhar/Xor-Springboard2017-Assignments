@@ -38,7 +38,7 @@ export class AdvertisementTableComponent {
         this.productService.deleteAdvertise(adv);
          }
 
-// callPipe(searchText:any){
-
-// }
+         editAd(ad:any){
+             this.productService.updateAdvertise(ad);
+         }
 }

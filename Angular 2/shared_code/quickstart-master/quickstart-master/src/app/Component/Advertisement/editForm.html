@@ -1,0 +1,31 @@
+<div class="container">
+
+    <div class="form-group row">
+        <div class="col-md-3">
+            <label>Title</label>
+            <input type="text" name="title" class="form-control" #TitleRef>
+        </div>
+    </div>
+    <div class="form-group row">
+        <div class="col-md-3">
+            <label>Name</label>
+            <input type="text" name="name" class="form-control" #NameRef>
+        </div>
+    </div>
+    <div class="form-group row">
+        <div class="col-md-3">
+            <label>Category</label>
+            <input type="text" name="name" class="form-control" #CatRef>
+        </div>
+    </div>
+    <div class="form-group row">
+        <div class="col-md-3">
+            <label>Description</label>
+            <input type="text" name="description" class="form-control" #DescRef>
+        </div>
+    </div>
+    <button type="button" class="btn btn-primary" (click)=AddAd(TitleRef.value,NameRef.value,CatRef.value,DescRef.value) #ButtonRef >ADD PRODUCT</button>
+
+    <br> <br>
+
+</div>

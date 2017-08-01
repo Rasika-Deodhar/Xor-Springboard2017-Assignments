@@ -6,8 +6,14 @@ import { ProductService } from './Services/AdvertisementService.Services';
   selector: 'my-app',
   /*template: `<Advertisement-Form (childEvent)="toRetriveValue($event)" #parentData></Advertisement-Form>
              <Advertisement-Table [TableData]="AdArr" (ArrIndex)="DeleteAd($event)"></Advertisement-Table>`,*/
-  //template: `<Advertisement-Form></Advertisement-Form> <br> <Advertisement-Table></Advertisement-Table>`,
-  template: `<formBuilder></formBuilder>`,
+  
+  //template: `<Home></Home>`,
+
+template: `<nav>
+<a routerLink="/HomeComponent" routerLinkActive="active" > Home </a> 
+<a routerLink="/EditProductComponent" routerLinkActive="active" > Edit </a>
+</nav>
+<router-outlet></router-outlet>`,
   providers: [ProductService]
 })
 

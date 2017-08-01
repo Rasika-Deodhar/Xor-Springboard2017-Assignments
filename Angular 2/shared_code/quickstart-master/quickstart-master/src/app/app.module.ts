@@ -8,10 +8,13 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {FormComponent} from './Component/Template-Driven-Form/FormComponent';
 import {ModelDrivenForm} from './Component/Model-Driven-Form/MDFFormComponent';
 import {ProductFormBuilderComponent} from './Component/Form-Builder/FormBuilderComponent';
+import { RouterModule } from '@angular/router'; 
+import {HomeComponent} from './Component/Advertisement/HomeComponent';
+import {EditProductComponent} from './Component/Advertisement/EditProductComponent';
 
 @NgModule({
-  imports:      [ BrowserModule , FormsModule,ReactiveFormsModule ],
-  declarations: [ AppComponent , AdvertisementFormComponent,AdvertisementTableComponent,SearchPipe,FormComponent,ModelDrivenForm,ProductFormBuilderComponent],
+  imports:      [ BrowserModule , FormsModule,ReactiveFormsModule ,RouterModule.forRoot([ {path: '', component: HomeComponent}, {path: 'edit/:name', component: EditProductComponent} ])],
+  declarations: [ AppComponent , AdvertisementFormComponent,AdvertisementTableComponent,SearchPipe,FormComponent,ModelDrivenForm,ProductFormBuilderComponent,HomeComponent,EditProductComponent],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

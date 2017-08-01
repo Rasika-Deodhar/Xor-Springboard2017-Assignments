@@ -24,11 +24,19 @@ export class ProductService {
         }
     }
 
-    updateAdvertise(){
-
+    updateAdvertise(ad:any){
+        for(let i of this.products){
+            if(this.products[i]===ad){
+                
+            }
+        }
     }
 
     getAdvertise(){
+
+    }
+
+    editAd(){
 
     }
 }
