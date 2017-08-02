@@ -1,96 +1,65 @@
-<html>
-<head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="register.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
-<body>
-<div class="container">
-  <div class="jumbotron">
-	<div class="container">
-	
-    <div class="row">
-	<div class="col-md-4">
-	<h1>ShopSell.com</h1>      
-    <p>Shop and Sell your own way out!!</p>
-	</div>
-	<div class="col-md-8">
-	<div class="head-image">
-		<img src="images/img1.jpg">
-	</div>
-	</div>
-	</div>
-	</div>
-  </div>
-	
-	 <nav class="navbar navbar-default" role="navigation">
-  
-  <div class="navbar-header">
-      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="home.html">SNS</a>
+<div class="cont" align="center" style="border:1px solid black;">
+	<h3>Signup</h3> <br>
+  <form #loginform="ngForm" novalidate>
+
+    <div class="form-group">
+    <input type="text" name="FirstName" placeholder="FirstName" class="form-control" required minlength="5" maxlength="10" #FirstName='ngModel' ngModel>
+    <div *ngIf="FirstName.errors && FirstName.touched" class="alert alert-danger">
+      <div [hidden]="!FirstName.errors.required" > Please enter your name </div>
+      <div [hidden]="!FirstName.errors.minlength"> Name length should be minimum 5 characters </div>
+      <div [hidden]="!FirstName.errors.maxlength"> Name length should be maximum 10 characters </div>
     </div>
-  
-  <div class="collapse navbar-collapse js-navbar-collapse">
-    <ul class="nav navbar-nav navbar-right">
-      <li><a href="home.html">HOME</a></li>
-      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#home.html" >SALES <span class="glyphicon glyphicon-chevron-down pull-right"></span> </a>
-		<ul class="dropdown-menu">
-          <li><a href="clothing.html">Clothing</a></li>
-          <li><a href="furniture.html">Furniture</a></li>
-          <li><a href="mobile.html">Mobile</a></li>
-		  <li><a href="realEstate.html">Real Estate</a></li>
-        </ul>
-	  </li>
-	
-	  <li><a href="login.html">LOGIN</a></li>
-	  <li><a class="active" href="register.html">REGISTER</a></li>
-    
-	<li><form class="navbar-form navbar-left" role="search">
-      <div class="form-group">
-		<form class="form-inline">
-    <input class="form-control mr-sm-2" type="text" placeholder="Search Ads..">
-    <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+    </div>
+
+	<div class="form-group">
+    <input type="text" name="LastName" placeholder="LastName" class="form-control" required minlength="5" maxlength="10" #LastName='ngModel' ngModel>
+    <div *ngIf="LastName.errors && LastName.touched" class="alert alert-danger">
+      <div [hidden]="!LastName.errors.required" > Please enter your name </div>
+      <div [hidden]="!LastName.errors.minlength"> Name length should be minimum 5 characters </div>
+      <div [hidden]="!LastName.errors.maxlength"> Name length should be maximum 10 characters </div>
+    </div>
+    </div>
+
+	<div class="form-group">
+    <input type="text" name="UserName" placeholder="Username" class="form-control" required minlength="5" maxlength="10" #UserName='ngModel' ngModel>
+    <div *ngIf="UserName.errors && UserName.touched" class="alert alert-danger">
+      <div [hidden]="!UserName.errors.required" > Please enter your name </div>
+      <div [hidden]="!UserName.errors.minlength"> Name length should be minimum 5 characters </div>
+      <div [hidden]="!UserName.errors.maxlength"> Name length should be maximum 10 characters </div>
+    </div>
+    </div>
+
+    <div class="form-group">
+	  <input type="password" name="Password" placeholder="Password" class="form-control" required minlength="5" maxlength="10" #Password='ngModel' ngModel>
+    <div *ngIf="Password.errors && Password.touched" class="alert alert-danger">
+      <div [hidden]="!Password.errors.required" > Please enter your name </div>
+      <div [hidden]="!Password.errors.minlength"> Name length should be minimum 5 characters </div>
+      <div [hidden]="!Password.errors.maxlength"> Name length should be maximum 10 characters </div>
+    </div> 
+    </div>
+
+	<div class="form-group">
+	  <input type="email" name="Email" placeholder="Email" class="form-control" required minlength="5" maxlength="10" #Email='ngModel' ng-pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" ngModel>
+    <div *ngIf="Email.errors && Email.touched" class="alert alert-danger">
+      <div [hidden]="!Email.errors.required" > Please enter your name </div>
+      <div [hidden]="!Email.errors.minlength"> Name length should be minimum 5 characters </div>
+      <div [hidden]="!Email.errors.maxlength"> Name length should be maximum 10 characters </div>
+    </div> 
+    </div>
+
+	<div class="form-group">
+	  <input type="number" name="Phone" placeholder="Contact" class="form-control" required minlength="5" maxlength="10" #Phone='ngModel' ngModel>
+    <div *ngIf="Phone.errors && Phone.touched" class="alert alert-danger">
+      <div [hidden]="!Phone.errors.required" > Please enter your name </div>
+      <div [hidden]="!Phone.errors.minlength"> Name length should be minimum 5 characters </div>
+      <div [hidden]="!Phone.errors.maxlength"> Name length should be maximum 10 characters </div>
+    </div> 
+    </div>
+
+    <br> <br>
+
+	  <button type="submit" [disabled]='!loginform.form.valid' (click)="onSubmit(FirstName.value,LastName.value,UserName.value,Password.value,Email.value,Phone.value)">Submit</button>
+
   </form>
-      </div>
-    </form></li>
-	</ul>
-  </div>
-</nav>
-
-
-	
+  <br> <br>
 </div>
-
-<div class="cont" align="center">
-	<h3>New User? Register!</h3> <br>
-        <input type="text" placeholder="Email"> <br> <br>
-		<input type="text" placeholder="Username"> <br> <br>
-		<input type="password" placeholder="Password"> <br> <br>
-		<input type="submit" value="Submit">
-</div>
-
-<footer class="container-fluid">
-  
-	<div style="text-align:center;"> 
-		Follow us on-
-	</div>
-	
-	<div class="footer-content" align="center"> 
-		<a href="https://www.facebook.com"><img src="images/img2.jpg" style="width:70px;height:50px;"></a> &nbsp; &nbsp; &nbsp; &nbsp;
-	    <a href="https://twitter.com"><img src="images/img3.jpg" style="width:70px;height:50px;"></a> &nbsp; &nbsp; &nbsp; &nbsp;
-	    <a href="https://instagram.com"><img src="images/img4.jpg" style="width:70px;height:50px;"></a> &nbsp; &nbsp; &nbsp; &nbsp;
-	    <a href="mailto:shopnsell@gmail.com"><img src="images/img5.jpg" style="width:70px;height:50px;"></a> &nbsp; &nbsp; &nbsp; &nbsp;
-	</div>
-
-</footer>
-</body>
-</html>

@@ -3,7 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent }  from './app.component';
 import { HttpModule } from '@angular/http'; 
-import { RouterModule } from '@angular/router'; 
+import { RouterModule } from '@angular/router';
+import { FormsModule } from '@angular/forms'; 
 
 import { HomePage }  from './Components/HomePage/HomePage';
 import { HomeLoginPage }  from './Components/HomeLoginPage/HomeLoginPage';
@@ -16,10 +17,18 @@ import { Post }  from './Components/PostAd/Post';
 import { RealEstate }  from './Components/RealEstate/RealEstate';
 import { Register }  from './Components/Register/Register';
 import { View }  from './Components/ViewAd/View';
+import { NavBar }  from './Components/NavBar/NavBar';
+
 
 @NgModule({
-  imports:      [ BrowserModule , RouterModule.forRoot([{path: '', component: HomePage},{path: 'login', component: Login}]) ],
-  declarations: [ AppComponent ,HomePage,HomeLoginPage,Clothing,Edit,Furniture,Login,Mobile,Post,RealEstate,Register,View],
+  imports:      [ BrowserModule , FormsModule , HttpModule ,RouterModule.forRoot([
+    {path:'', component: HomePage},
+    {path:'navBar', component: NavBar},
+    {path:'login', component: Login},
+    {path:'register', component: Register},
+    {path:'home_login', component: HomeLoginPage}
+    ]) ],
+  declarations: [ AppComponent ,HomePage,HomeLoginPage,Clothing,Edit,Furniture,Login,Mobile,Post,RealEstate,Register,View,NavBar],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

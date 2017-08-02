@@ -67,3 +67,12 @@ footer
 	height:30%;
 	margin-top:30px;
 }
+
+.nav .dropdown .dropdown-menu >li >a
+{
+	background-color:#F95262;
+}
+
+.form-control{
+	width: 350px;
+}
