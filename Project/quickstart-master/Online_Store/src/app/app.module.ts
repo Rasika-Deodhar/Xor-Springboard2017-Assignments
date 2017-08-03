@@ -18,7 +18,8 @@ import { RealEstate }  from './Components/RealEstate/RealEstate';
 import { Register }  from './Components/Register/Register';
 import { View }  from './Components/ViewAd/View';
 import { NavBar }  from './Components/NavBar/NavBar';
-
+import { Logout } from "./Components/Logout/Logout";
+import { UserInfo } from "./Components/UserInfo/UserInfo";
 
 @NgModule({
   imports:      [ BrowserModule , FormsModule , HttpModule ,RouterModule.forRoot([
@@ -26,9 +27,18 @@ import { NavBar }  from './Components/NavBar/NavBar';
     {path:'navBar', component: NavBar},
     {path:'login', component: Login},
     {path:'register', component: Register},
-    {path:'home_login', component: HomeLoginPage}
+    {path:'home_login', component: HomeLoginPage},
+    {path:'postAd',component:Post},
+    {path:'viewAd',component:View},
+    {path:'editAd',component:Edit},
+    {path:'logout',component:Logout},
+    {path:'clothing',component:Clothing},
+    {path:'furniture',component:Furniture},
+    {path:'mobile',component:Mobile},
+    {path:'realEstate',component:RealEstate},
+    {path:'userInfo',component:UserInfo},
     ]) ],
-  declarations: [ AppComponent ,HomePage,HomeLoginPage,Clothing,Edit,Furniture,Login,Mobile,Post,RealEstate,Register,View,NavBar],
+  declarations: [ AppComponent ,HomePage,HomeLoginPage,Clothing,Edit,Furniture,Login,Mobile,Post,RealEstate,Register,View,NavBar,Logout,UserInfo],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

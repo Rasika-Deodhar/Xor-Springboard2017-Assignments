@@ -1,116 +1,46 @@
-<html>
-<head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="post.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
-<body>
-<div class="container">
-  <div class="jumbotron">
-	<div class="container">
-	
-    <div class="row">
-	<div class="col-md-4">
-	<h1>ShopSell.com</h1>      
-    <p>Shop and Sell your own way out!!</p>
-	</div>
-	<div class="col-md-8">
-	<div class="head-image">
-		<img src="images/img1.jpg">
-	</div>
-	</div>
-	</div>
-	</div>
-  </div>
-	
-	<nav class="navbar navbar-default" role="navigation">
-  
-  <div class="navbar-header">
-      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="home.html">SNS</a>
+		<div class="cont" align="center" style="border:1px solid black;">
+	<h3>Post Advertisement</h3> <br>
+  <form #loginform="ngForm" novalidate>
+
+    <div class="form-group">
+    <input type="text" name="Title" placeholder="Title" class="form-control" required minlength="5" maxlength="10" #Title='ngModel' ngModel>
+    <div *ngIf="Title.errors && Title.touched" class="alert alert-danger">
+      <div [hidden]="!Title.errors.required" > Please enter your Ad Title </div>
     </div>
-  
-  <div class="collapse navbar-collapse js-navbar-collapse">
-    <ul class="nav navbar-nav navbar-right">
-      <li><a class="active" href="home.html">HOME</a></li>
-      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#home.html" >SALES <span class="glyphicon glyphicon-chevron-down pull-right"></span> </a>
-		<ul class="dropdown-menu">
-          <li><a href="clothing.html">Clothing</a></li>
-          <li><a href="furniture.html">Furniture</a></li>
-          <li><a href="mobile.html">Mobile</a></li>
-		  <li><a href="realEstate.html">Real Estate</a></li>
-        </ul>
-	  </li>
-	  
-	  <!--<li><a href="login.html">LOGIN</a></li>
-	  <li><a href="register.html">REGISTER</a></li>-->
-	  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="home_login.html">Welcome Rasika! <span class="glyphicon glyphicon-chevron-down pull-right"></span> </a>
-		<ul class="dropdown-menu" id="loginmenu" style="background-color:#F95262;font-weight:bold;">
-			<li><a href="post.html">Post Ad</a></li>
-			<li><a href="view.html">View Your Ads</a></li>
-			<li><a href="edit.html">Edit Ad</a></li>
-			<li><a href="logout.html">Logout</a></li>
-		</ul>
-	  </li>
-    
-	<li><form class="navbar-form navbar-left" role="search">
-      <div class="form-group">
-		<form class="form-inline">
-    <input class="form-control mr-sm-2" type="text" placeholder="Search Ads..">
-    <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+    </div>
+
+    <br> <br>
+
+		<div class="form-group">
+       <input type="text" name="Name" required minlength="0" placeholder="Name" minlength="3" class="form-control" #Name="ngModel" ngModel>
+        <div *ngIf="Name.errors && Name.touched" class="alert-danger">
+          <div [hidden]="!Name.errors.required" >Please enter your Name!</div>
+          <div [hidden]="!Name.errors.minlength">Name should be of minimum 3 characters </div>
+       </div>
+      </div>     
+
+			<br> <br>
+
+    <div class="form-group">
+    <select class="form-control" name="Category" #Category="ngModel" ngModel>
+        <option *ngFor="let product_category of categories">{{product_category}}</option>
+      </select>
+    </div>
+
+    <br> <br>
+
+		<div class="form-group">
+	  <input type="text" name="Description" placeholder="Description" class="form-control" required #Description='ngModel' ngModel>
+    <div *ngIf="Description.errors && Description.touched" class="alert alert-danger">
+      <div [hidden]="!Description.errors.required" > Please enter your Description! </div>
+    </div> 
+    </div>
+
+		<br> <br>
+
+	  <button type="submit" [disabled]='!loginform.form.valid' (click)="onSubmit(Title.value,Name.value,Category.value,Description.value)">Submit</button>
+
   </form>
-      </div>
-    </form></li>
-	</ul>
-  </div>
-</nav>
-
-
-	
+  <br> <br>
 </div>
 
-<div class="cont" align="center">
-	<h3>Post Ad of your Item</h3> <br>
-	<form>
-	Select your category..  &nbsp; &nbsp;
-	<select>
-	<option value="volvo">Clothing</option>
-    <option value="saab">Furniture</option>
-    <option value="fiat">Mobile</option>
-    <option value="audi">Real Estate</option>
-	</select>  <br> <br>
-    <input name="name" type="text" placeholder="Name of the item"> <br> <br>
-	<input name="brand" type="text" placeholder="Brand"> <br> <br>
-	<input name="date" type="date" placeholder="Date of Purchase"> <br> <br>
-	<input name="color" type="text" placeholder="Color of the item"> <br> <br>
-	<input name="sell-price" type="text" placeholder="Proposed Price to sell"> <br> <br>
-	<!--<div class="image"> <img src="images/plus.jpg" width="40px" height="40px"> </div> <input name="images" type="file" multiple>  <br> <br>-->
-	<input type="submit" value="Submit">
-	</form>
-</div>
-
-<footer class="container-fluid">
-  
-	<div style="text-align:center;"> 
-		Follow us on-
-	</div>
-	
-	<div class="footer-content" align="center"> 
-		<a href="https://www.facebook.com"><img src="images/img2.jpg" style="width:70px;height:50px;"></a> &nbsp; &nbsp; &nbsp; &nbsp;
-	    <a href="https://twitter.com"><img src="images/img3.jpg" style="width:70px;height:50px;"></a> &nbsp; &nbsp; &nbsp; &nbsp;
-	    <a href="https://instagram.com"><img src="images/img4.jpg" style="width:70px;height:50px;"></a> &nbsp; &nbsp; &nbsp; &nbsp;
-	    <a href="mailto:shopnsell@gmail.com"><img src="images/img5.jpg" style="width:70px;height:50px;"></a> &nbsp; &nbsp; &nbsp; &nbsp;
-	</div>
-
-</footer>
-</body>
-</html>

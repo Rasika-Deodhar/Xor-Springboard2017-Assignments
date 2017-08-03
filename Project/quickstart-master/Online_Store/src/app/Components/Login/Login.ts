@@ -24,6 +24,8 @@ constructor(private advertisementService: AdvertisementService,private router:Ro
       }
       else{
         this.advertisementService.setLoginToken(token);
+        this.advertisementService.setUserInfo(user.userName);
+        this.advertisementService.setName(UserNameValue);
         this.router.navigate(['/home_login']);
       }
 

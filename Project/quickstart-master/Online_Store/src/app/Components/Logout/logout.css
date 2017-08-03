@@ -52,27 +52,16 @@
 	padding-top:50px;
 }
 
-footer 
+.image
 {
-      background-color: #F95262;
-      color: white;
-      padding: 15px;
-	  height:150px;
-	  position:relative;
+	width:50px;
+	height:50px;
+	margin:50px;
+	border:1px solid black;
+	display:inline;
 }
 
-.footer-content
-{
-	width:100%;
-	height:30%;
-	margin-top:30px;
-}
-
-.nav .dropdown .dropdown-menu >li >a
+.cont > p
 {
 	background-color:#F95262;
-}
-
-.form-control{
-	width: 350px;
 }

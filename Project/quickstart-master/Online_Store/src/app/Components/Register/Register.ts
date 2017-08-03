@@ -21,6 +21,10 @@ export class Register  {
         {
             var token = response.data['auth-token'];
             console.log("New user inserted=",newUser,"Token = ",token);
+            if(newUser!=null){
+                this.advertisementservice.setUserInfo(newUser.userName,newUser.email,newUser.phone);
+                alert("New User Registered!!");
+            }
         });
     }
  }

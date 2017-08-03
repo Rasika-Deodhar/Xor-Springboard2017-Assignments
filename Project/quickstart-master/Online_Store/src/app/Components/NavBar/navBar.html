@@ -25,38 +25,37 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="home.html">SNS</a>
+      <a class="navbar-brand" href="" routerLink="/" routerLinkActive="active">SNS</a>
     </div>
   
   <div class="collapse navbar-collapse js-navbar-collapse">
     <ul class="nav navbar-nav navbar-right">
-      <li><a href="" routerLink="/home" routerLinkActive="active">HOME</a></li>
+      <li><a href="" routerLink="/" routerLinkActive="active">HOME</a></li>
       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#home.html" >SALES <span class="glyphicon glyphicon-chevron-down pull-right"></span> </a>
-		<ul class="dropdown-menu">
-      <li *ngFor="let cat of categ">{{cat}}</li>
-          <!--<li><a href="clothing.html">Clothing</a></li>
-          <li><a href="furniture.html">Furniture</a></li>
-          <li><a href="mobile.html">Mobile</a></li>
-		  <li><a href="realEstate.html">Real Estate</a></li>-->
+		    <ul class="dropdown-menu" style="background-color:#F95262;font-weight:bold;">
+          <li *ngFor="let cat of categories">
+            <a (click)="categoryOption(cat)">{{cat}}</a>
+          </li>
         </ul>
-	  </li>
+	    </li>
 	  
 	  <li><a *ngIf="token==null" routerLink="/login" routerLinkActive="active" >LOGIN</a></li>	 
-    <li><a *ngIf="token!=null" routerLink="/login" routerLinkActive="active" >Welcome Rasika!</a></li>
 
 	  <li><a *ngIf="token==null" routerLink="/register" routerLinkActive="active" >REGISTER</a></li>
 
     <!--Welcome-->
-    <li *ngIf="token==null" class="dropdown"><a *ngIf="token==null" class="dropdown-toggle" data-toggle="dropdown" href="home_login.html"> <span *ngIf="token==null" class="glyphicon glyphicon-chevron-down pull-right"></span> </a>
-		<ul *ngIf="token==null" class="dropdown-menu" id="loginmenu" style="background-color:#F95262;font-weight:bold;">
-			<li><a *ngIf="token==null" href="post.html">Post Ad</a></li>
-			<li><a *ngIf="token==null" href="view.html">View Your Ads</a></li>
-			<li><a *ngIf="token==null" href="edit.html">Edit Ad</a></li>
-			<li><a *ngIf="token==null" href="logout.html">Logout</a></li>
+    <li><a *ngIf="token!=null" routerLink="/home_login" routerLinkActive="active" >Welcome {{name}}!!</a></li>
+    <li *ngIf="token!=null" class="dropdown"><a *ngIf="token!=null" class="dropdown-toggle" data-toggle="dropdown" href="home_login.html"> <span *ngIf="token!=null" class="glyphicon glyphicon-chevron-down pull-right"></span> </a>
+		<ul *ngIf="token!=null" class="dropdown-menu" id="loginmenu" style="background-color:#F95262;font-weight:bold;">
+			<!--<li><a *ngFor="let act of action">{{act}}</a></li>-->
+      <li><a  href="" routerLink="/postAd" routerLinkActive="active">Post Ad</a></li>
+			<li><a  href="" routerLink="/viewAd" routerLinkActive="active">View Your Ads</a></li>
+			<li><a  href="" routerLink="/logout" routerLinkActive="active">Logout</a></li>
+      <!--<li><a  href="" routerLink="/userInfo" routerLinkActive="active">UserInfo</a></li>-->
 		</ul>
 	  </li>
     
-	<li><form class="navbar-form navbar-left" role="search">
+	<!--<li><form class="navbar-form navbar-left" role="search">
       <div class="form-group">
 		<form class="form-inline">
     <input class="form-control mr-sm-2" type="text" placeholder="Search Ads..">
@@ -64,7 +63,7 @@
   </form>
       </div>
     </form>
-    </li>
+    </li>-->
 	</ul>
   </div>
 </nav>

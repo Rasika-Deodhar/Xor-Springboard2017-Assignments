@@ -5,54 +5,53 @@
     <div class="form-group">
     <input type="text" name="FirstName" placeholder="FirstName" class="form-control" required minlength="5" maxlength="10" #FirstName='ngModel' ngModel>
     <div *ngIf="FirstName.errors && FirstName.touched" class="alert alert-danger">
-      <div [hidden]="!FirstName.errors.required" > Please enter your name </div>
-      <div [hidden]="!FirstName.errors.minlength"> Name length should be minimum 5 characters </div>
-      <div [hidden]="!FirstName.errors.maxlength"> Name length should be maximum 10 characters </div>
+      <div [hidden]="!FirstName.errors.required" > Please enter your Firstname! </div>
+      <div [hidden]="!FirstName.errors.minlength"> Firstname length should be minimum 5 characters </div>
+      <div [hidden]="!FirstName.errors.maxlength"> Firstname length should be maximum 10 characters </div>
     </div>
     </div>
 
 	<div class="form-group">
     <input type="text" name="LastName" placeholder="LastName" class="form-control" required minlength="5" maxlength="10" #LastName='ngModel' ngModel>
     <div *ngIf="LastName.errors && LastName.touched" class="alert alert-danger">
-      <div [hidden]="!LastName.errors.required" > Please enter your name </div>
-      <div [hidden]="!LastName.errors.minlength"> Name length should be minimum 5 characters </div>
-      <div [hidden]="!LastName.errors.maxlength"> Name length should be maximum 10 characters </div>
+      <div [hidden]="!LastName.errors.required" > Please enter your Lastname! </div>
+      <div [hidden]="!LastName.errors.minlength"> Lastname length should be minimum 5 characters </div>
+      <div [hidden]="!LastName.errors.maxlength"> Lastname length should be maximum 10 characters </div>
     </div>
     </div>
 
 	<div class="form-group">
     <input type="text" name="UserName" placeholder="Username" class="form-control" required minlength="5" maxlength="10" #UserName='ngModel' ngModel>
     <div *ngIf="UserName.errors && UserName.touched" class="alert alert-danger">
-      <div [hidden]="!UserName.errors.required" > Please enter your name </div>
-      <div [hidden]="!UserName.errors.minlength"> Name length should be minimum 5 characters </div>
-      <div [hidden]="!UserName.errors.maxlength"> Name length should be maximum 10 characters </div>
+      <div [hidden]="!UserName.errors.required" > Please enter your Username! </div>
+      <div [hidden]="!UserName.errors.minlength"> Username length should be minimum 5 characters </div>
+      <div [hidden]="!UserName.errors.maxlength"> Username length should be maximum 10 characters </div>
     </div>
     </div>
 
     <div class="form-group">
 	  <input type="password" name="Password" placeholder="Password" class="form-control" required minlength="5" maxlength="10" #Password='ngModel' ngModel>
     <div *ngIf="Password.errors && Password.touched" class="alert alert-danger">
-      <div [hidden]="!Password.errors.required" > Please enter your name </div>
-      <div [hidden]="!Password.errors.minlength"> Name length should be minimum 5 characters </div>
-      <div [hidden]="!Password.errors.maxlength"> Name length should be maximum 10 characters </div>
+      <div [hidden]="!Password.errors.required" > Please enter a Password! </div>
+      <div [hidden]="!Password.errors.minlength"> Password length should be minimum 5 characters </div>
+      <div [hidden]="!Password.errors.maxlength"> Password length should be maximum 10 characters </div>
     </div> 
     </div>
 
 	<div class="form-group">
-	  <input type="email" name="Email" placeholder="Email" class="form-control" required minlength="5" maxlength="10" #Email='ngModel' ng-pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" ngModel>
+	  <input type="email" name="Email" placeholder="Email" class="form-control" required #Email='ngModel' pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" ngModel>
     <div *ngIf="Email.errors && Email.touched" class="alert alert-danger">
-      <div [hidden]="!Email.errors.required" > Please enter your name </div>
-      <div [hidden]="!Email.errors.minlength"> Name length should be minimum 5 characters </div>
-      <div [hidden]="!Email.errors.maxlength"> Name length should be maximum 10 characters </div>
+      <div [hidden]="!Email.errors.required" > Please enter your Email! </div>
+      <div [hidden]="!Email.errors.pattern"> Please enter a valid Email! </div>
     </div> 
     </div>
 
 	<div class="form-group">
 	  <input type="number" name="Phone" placeholder="Contact" class="form-control" required minlength="5" maxlength="10" #Phone='ngModel' ngModel>
     <div *ngIf="Phone.errors && Phone.touched" class="alert alert-danger">
-      <div [hidden]="!Phone.errors.required" > Please enter your name </div>
-      <div [hidden]="!Phone.errors.minlength"> Name length should be minimum 5 characters </div>
-      <div [hidden]="!Phone.errors.maxlength"> Name length should be maximum 10 characters </div>
+      <div [hidden]="!Phone.errors.required" > Please enter your Contact! </div>
+      <div [hidden]="!Phone.errors.minlength"> Contact length should be minimum 5 characters </div>
+      <div [hidden]="!Phone.errors.maxlength"> Contact length should be maximum 10 characters </div>
     </div> 
     </div>
 
