@@ -1,0 +1,6 @@
+c:\users\deodhar_r\documents\visual studio 2015\Projects\Assignment6\Assignment6\bin\Debug\Assignment6.exe.config
+c:\users\deodhar_r\documents\visual studio 2015\Projects\Assignment6\Assignment6\bin\Debug\Assignment6.exe
+c:\users\deodhar_r\documents\visual studio 2015\Projects\Assignment6\Assignment6\bin\Debug\Assignment6.pdb
+c:\users\deodhar_r\documents\visual studio 2015\Projects\Assignment6\Assignment6\obj\Debug\Assignment6.csprojResolveAssemblyReference.cache
+c:\users\deodhar_r\documents\visual studio 2015\Projects\Assignment6\Assignment6\obj\Debug\Assignment6.exe
+c:\users\deodhar_r\documents\visual studio 2015\Projects\Assignment6\Assignment6\obj\Debug\Assignment6.pdb
