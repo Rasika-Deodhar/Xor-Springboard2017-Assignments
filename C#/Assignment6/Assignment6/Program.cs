@@ -50,8 +50,21 @@ namespace Assignment6
             {
                 Console.WriteLine(item.ID + " " + item.ProjectName + " " + item.DeptName);
             }
-            
 
+            var empIDs = e.Employees.Select(i => i.ID);
+            foreach (var item in empIDs)
+            {
+                Console.WriteLine(item);
+            }
+
+            Console.WriteLine(e.Employees.Any(i => i.ProjectName.Equals("XYZ")));
+            //foreach (Employee item in e.Employees.GroupBy(i => i.ProjectName).ToList())
+            //{
+            //    Console.WriteLine("Group by"+ item.ID + " " + item.ProjectName + " " + item.DeptName);
+            //}
+
+            //var emps = e.Employees.GroupBy(i => i.ProjectName);
+            
             Console.Read();
         }
     }

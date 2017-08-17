@@ -1,0 +1,45 @@
+echo hello world - prints whatever we write after it
+--------------------------------------
+passwd - changes password of current user; remains unchanged if typed the same password
+--------------------------------------
+date - gives today's date with format:
+Day Month Date Time Location Year
+--------------------------------------
+hostname-gives the host name
+--------------------------------------
+arch - gives wether 64 bit or 32 bit architecture
+--------------------------------------
+uname -a =>
+uname-> specifies the system,get it's details,get details about the system
+-a with uname gives info of -m -n -r -s -v together
+-m = current hardware platform
+-n = name of system
+-r = current release level of OS
+-s = name of OS
+--------------------------------------
+ dmesg | more(you may need to press q to quit)
+--------------------------------------
+
+$ uptime
+$ who am i
+$ who
+$ id
+$ last
+$ finger
+$ w
+$ top (you may need to press q to quit)
+$ echo $SHELL
+$ echo {con,pre}{sent,fer}{s,ed}
+$ man "automatic door"
+$ man ls (you may need to press q to quit)
+$ man who (you may need to press q to quit)
+$ who can tell me why i got license
+$ lost
+$ clear
+$ cal 2000
+$ cal 9 1752(do you notice anything unusual?)
+$ bc -l(type quit or press Ctrl-d to quit)
+$ echo 5+4 | bc -l
+$ yes please(you may need to press Ctrl-c to quit)
+$ time sleep 5
+$ history
