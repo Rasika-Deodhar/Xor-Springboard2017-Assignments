@@ -1,0 +1,6 @@
+c:\users\deodhar_r\documents\visual studio 2015\Projects\Day8\Day8\bin\Debug\Day8.exe.config
+c:\users\deodhar_r\documents\visual studio 2015\Projects\Day8\Day8\bin\Debug\Day8.exe
+c:\users\deodhar_r\documents\visual studio 2015\Projects\Day8\Day8\bin\Debug\Day8.pdb
+c:\users\deodhar_r\documents\visual studio 2015\Projects\Day8\Day8\obj\Debug\Day8.csprojResolveAssemblyReference.cache
+c:\users\deodhar_r\documents\visual studio 2015\Projects\Day8\Day8\obj\Debug\Day8.exe
+c:\users\deodhar_r\documents\visual studio 2015\Projects\Day8\Day8\obj\Debug\Day8.pdb
