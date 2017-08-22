@@ -1,0 +1,5 @@
+c:\users\deodhar_r\documents\visual studio 2015\Projects\Day10\Day10\bin\Debug\Day10.exe.config
+c:\users\deodhar_r\documents\visual studio 2015\Projects\Day10\Day10\bin\Debug\Day10.exe
+c:\users\deodhar_r\documents\visual studio 2015\Projects\Day10\Day10\bin\Debug\Day10.pdb
+c:\users\deodhar_r\documents\visual studio 2015\Projects\Day10\Day10\obj\Debug\Day10.exe
+c:\users\deodhar_r\documents\visual studio 2015\Projects\Day10\Day10\obj\Debug\Day10.pdb

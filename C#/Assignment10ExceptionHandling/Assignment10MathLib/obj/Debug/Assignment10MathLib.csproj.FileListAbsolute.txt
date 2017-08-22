@@ -1,0 +1,6 @@
+c:\users\deodhar_r\documents\visual studio 2015\Projects\Assignment10ExceptionHandling\Assignment10MathLib\bin\Debug\Assignment10MathLib.exe.config
+c:\users\deodhar_r\documents\visual studio 2015\Projects\Assignment10ExceptionHandling\Assignment10MathLib\bin\Debug\Assignment10MathLib.exe
+c:\users\deodhar_r\documents\visual studio 2015\Projects\Assignment10ExceptionHandling\Assignment10MathLib\bin\Debug\Assignment10MathLib.pdb
+c:\users\deodhar_r\documents\visual studio 2015\Projects\Assignment10ExceptionHandling\Assignment10MathLib\obj\Debug\Assignment10MathLib.csprojResolveAssemblyReference.cache
+c:\users\deodhar_r\documents\visual studio 2015\Projects\Assignment10ExceptionHandling\Assignment10MathLib\obj\Debug\Assignment10MathLib.exe
+c:\users\deodhar_r\documents\visual studio 2015\Projects\Assignment10ExceptionHandling\Assignment10MathLib\obj\Debug\Assignment10MathLib.pdb
