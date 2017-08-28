@@ -1,0 +1,9 @@
+c:\users\deodhar_r\documents\visual studio 2015\Projects\FirstService\FirstService\bin\Debug\FirstService.exe
+c:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\FirstService\FirstService\bin\Debug\FirstService.exe.config
+c:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\FirstService\FirstService\obj\Debug\FirstService.ProjectInstaller.resources
+c:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\FirstService\FirstService\obj\Debug\FirstService.FirstService.resources
+c:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\FirstService\FirstService\obj\Debug\FirstService.csproj.GenerateResource.Cache
+c:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\FirstService\FirstService\obj\Debug\FirstService.exe
+c:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\FirstService\FirstService\obj\Debug\FirstService.pdb
+c:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\FirstService\FirstService\obj\Debug\FirstService.csprojResolveAssemblyReference.cache
+C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\FirstService\FirstService\bin\Debug\FirstService.pdb
