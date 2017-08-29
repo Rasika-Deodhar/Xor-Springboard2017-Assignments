@@ -1,0 +1,12 @@
+c:\users\deodhar_r\documents\visual studio 2015\Projects\DataFirstApproach\DatabaseConsole\bin\Debug\DatabaseConsole.exe.config
+c:\users\deodhar_r\documents\visual studio 2015\Projects\DataFirstApproach\DatabaseConsole\bin\Debug\DatabaseConsole.exe
+c:\users\deodhar_r\documents\visual studio 2015\Projects\DataFirstApproach\DatabaseConsole\bin\Debug\DatabaseConsole.pdb
+c:\users\deodhar_r\documents\visual studio 2015\Projects\DataFirstApproach\DatabaseConsole\bin\Debug\DataFirstApproach.dll
+c:\users\deodhar_r\documents\visual studio 2015\Projects\DataFirstApproach\DatabaseConsole\bin\Debug\EntityFramework.dll
+c:\users\deodhar_r\documents\visual studio 2015\Projects\DataFirstApproach\DatabaseConsole\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\deodhar_r\documents\visual studio 2015\Projects\DataFirstApproach\DatabaseConsole\bin\Debug\DataFirstApproach.pdb
+c:\users\deodhar_r\documents\visual studio 2015\Projects\DataFirstApproach\DatabaseConsole\bin\Debug\EntityFramework.xml
+c:\users\deodhar_r\documents\visual studio 2015\Projects\DataFirstApproach\DatabaseConsole\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\deodhar_r\documents\visual studio 2015\Projects\DataFirstApproach\DatabaseConsole\obj\Debug\DatabaseConsole.csprojResolveAssemblyReference.cache
+c:\users\deodhar_r\documents\visual studio 2015\Projects\DataFirstApproach\DatabaseConsole\obj\Debug\DatabaseConsole.exe
+c:\users\deodhar_r\documents\visual studio 2015\Projects\DataFirstApproach\DatabaseConsole\obj\Debug\DatabaseConsole.pdb

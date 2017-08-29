@@ -1,0 +1,15 @@
+c:\users\deodhar_r\documents\visual studio 2015\Projects\CodeToDB\CodeToDB\bin\Debug\CodeToDB.dll.config
+c:\users\deodhar_r\documents\visual studio 2015\Projects\CodeToDB\CodeToDB\bin\Debug\CodeToDB.dll
+c:\users\deodhar_r\documents\visual studio 2015\Projects\CodeToDB\CodeToDB\bin\Debug\CodeToDB.pdb
+c:\users\deodhar_r\documents\visual studio 2015\Projects\CodeToDB\CodeToDB\bin\Debug\EntityFramework.dll
+c:\users\deodhar_r\documents\visual studio 2015\Projects\CodeToDB\CodeToDB\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\deodhar_r\documents\visual studio 2015\Projects\CodeToDB\CodeToDB\bin\Debug\EntityFramework.xml
+c:\users\deodhar_r\documents\visual studio 2015\Projects\CodeToDB\CodeToDB\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\deodhar_r\documents\visual studio 2015\Projects\CodeToDB\CodeToDB\obj\Debug\CodeToDB.csprojResolveAssemblyReference.cache
+c:\users\deodhar_r\documents\visual studio 2015\Projects\CodeToDB\CodeToDB\obj\Debug\CodeToDB.dll
+c:\users\deodhar_r\documents\visual studio 2015\Projects\CodeToDB\CodeToDB\obj\Debug\CodeToDB.pdb
+c:\users\deodhar_r\documents\visual studio 2015\Projects\CodeToDB\CodeToDB\obj\Debug\CodeToDB.Migrations.InitialCreate.resources
+c:\users\deodhar_r\documents\visual studio 2015\Projects\CodeToDB\CodeToDB\obj\Debug\CodeToDB.csproj.GenerateResource.Cache
+c:\users\deodhar_r\documents\visual studio 2015\Projects\CodeToDB\CodeToDB\obj\Debug\CodeToDB.Migrations.AddURL.resources
+c:\users\deodhar_r\documents\visual studio 2015\Projects\CodeToDB\CodeToDB\obj\Debug\CodeToDB.Migrations.AddDepartment.resources
+c:\users\deodhar_r\documents\visual studio 2015\Projects\CodeToDB\CodeToDB\obj\Debug\CodeToDB.Migrations.AddURL1.resources
