@@ -1,0 +1,6 @@
+http://www.tutorialsteacher.com/mvc/partial-view-in-asp.net-mvc
+
+Following are the link for ASP.net MVC
+
+Razer syntax-https://docs.microsoft.com/en-us/aspnet/web-pages/overview/getting-started/introducing-razor-syntax-c
+MVC- https://www.asp.net/mvc/overview/getting-started

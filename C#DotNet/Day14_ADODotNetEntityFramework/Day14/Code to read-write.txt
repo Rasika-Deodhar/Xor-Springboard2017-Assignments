@@ -1,0 +1,14 @@
+private void read_Click(object sender, EventArgs e)
+        {
+            StreamReader sr = new StreamReader("C:\\New Folder\\Text.txt");
+            MessageBox.Show(sr.ReadLine());
+            sr.Close();
+        }
+
+        private void write_Click(object sender, EventArgs e)
+        {
+            FileIOPermission per = new FileIOPermission(PermissionState.Unrestricted); 
+            StreamWriter sw = new StreamWriter("C:\\New Folder\\Text.txt");
+            sw.WriteLine("C# Assignments. File permissions");
+            sw.Close();
+        }

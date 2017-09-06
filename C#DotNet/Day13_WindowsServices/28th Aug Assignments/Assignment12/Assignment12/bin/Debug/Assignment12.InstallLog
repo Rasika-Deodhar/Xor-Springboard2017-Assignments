@@ -1,0 +1,458 @@
+﻿Installing assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Committing assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Uninstalling assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+An exception occurred during the uninstallation of the Assignment12.ProjectInstaller installer.
+System.ArgumentException: The savedState dictionary contains inconsistent data and might have been corrupted.
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Installing service MonitorDirectoryService...
+Service MonitorDirectoryService has been successfully installed.
+Creating EventLog source MonitorDirectoryService in log Application...
+Committing assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Uninstalling assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Removing EventLog source MonitorDirectoryService.
+Service MonitorDirectoryService is being removed from the system...
+Service MonitorDirectoryService was successfully removed from the system.
+Installing assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Installing service MonitorDirectoryService...
+Creating EventLog source MonitorDirectoryService in log Application...
+Rolling back assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Restoring event log to previous state for source MonitorDirectoryService.
+Installing assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Installing service MonitorDirectoryService...
+Creating EventLog source MonitorDirectoryService in log Application...
+Rolling back assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Restoring event log to previous state for source MonitorDirectoryService.
+Installing assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Installing service MonitorDirectoryService...
+Service MonitorDirectoryService has been successfully installed.
+Creating EventLog source MonitorDirectoryService in log Application...
+Committing assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Uninstalling assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Removing EventLog source MonitorDirectoryService.
+Service MonitorDirectoryService is being removed from the system...
+Service MonitorDirectoryService was successfully removed from the system.
+Installing assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Installing service MonitorDirectoryService...
+Service MonitorDirectoryService has been successfully installed.
+Creating EventLog source MonitorDirectoryService in log Application...
+Committing assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Uninstalling assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Removing EventLog source MonitorDirectoryService.
+Service MonitorDirectoryService is being removed from the system...
+Service MonitorDirectoryService was successfully removed from the system.
+Installing assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Installing service MonitorDirectoryService...
+Service MonitorDirectoryService has been successfully installed.
+Creating EventLog source MonitorDirectoryService in log Application...
+Committing assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Uninstalling assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Removing EventLog source MonitorDirectoryService.
+Service MonitorDirectoryService is being removed from the system...
+Service MonitorDirectoryService was successfully removed from the system.
+Installing assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Installing service MonitorDirectoryService...
+Service MonitorDirectoryService has been successfully installed.
+Creating EventLog source MonitorDirectoryService in log Application...
+Committing assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Uninstalling assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Removing EventLog source MonitorDirectoryService.
+Service MonitorDirectoryService is being removed from the system...
+Service MonitorDirectoryService was successfully removed from the system.
+Installing assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Installing service MonitorDirectoryService...
+Service MonitorDirectoryService has been successfully installed.
+Creating EventLog source MonitorDirectoryService in log Application...
+Committing assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Uninstalling assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Removing EventLog source MonitorDirectoryService.
+Service MonitorDirectoryService is being removed from the system...
+Service MonitorDirectoryService was successfully removed from the system.
+Installing assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Installing service MonitorDirectoryService...
+Service MonitorDirectoryService has been successfully installed.
+Creating EventLog source MonitorDirectoryService in log Application...
+Committing assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Uninstalling assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Removing EventLog source MonitorDirectoryService.
+Service MonitorDirectoryService is being removed from the system...
+Service MonitorDirectoryService was successfully removed from the system.
+Installing assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Installing service MonitorDirectoryService...
+Service MonitorDirectoryService has been successfully installed.
+Creating EventLog source MonitorDirectoryService in log Application...
+Committing assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Uninstalling assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Removing EventLog source MonitorDirectoryService.
+Service MonitorDirectoryService is being removed from the system...
+Service MonitorDirectoryService was successfully removed from the system.
+Installing assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Installing service MonitorDirectoryService...
+Service MonitorDirectoryService has been successfully installed.
+Creating EventLog source MonitorDirectoryService in log Application...
+Committing assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Installing assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Installing service MonitorDirectoryService...
+Creating EventLog source MonitorDirectoryService in log Application...
+Rolling back assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Restoring event log to previous state for source MonitorDirectoryService.
+Installing assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Installing service MonitorDirectoryService...
+Creating EventLog source MonitorDirectoryService in log Application...
+Rolling back assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Restoring event log to previous state for source MonitorDirectoryService.
+Uninstalling assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Removing EventLog source MonitorDirectoryService.
+Service MonitorDirectoryService is being removed from the system...
+Service MonitorDirectoryService was successfully removed from the system.
+Installing assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Installing service MonitorDirectoryService...
+Service MonitorDirectoryService has been successfully installed.
+Creating EventLog source MonitorDirectoryService in log Application...
+Committing assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Uninstalling assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Removing EventLog source MonitorDirectoryService.
+Service MonitorDirectoryService is being removed from the system...
+Service MonitorDirectoryService was successfully removed from the system.
+Installing assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Installing service MonitorDirectoryService...
+Service MonitorDirectoryService has been successfully installed.
+Creating EventLog source MonitorDirectoryService in log Application...
+Committing assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Uninstalling assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Removing EventLog source MonitorDirectoryService.
+Service MonitorDirectoryService is being removed from the system...
+Service MonitorDirectoryService was successfully removed from the system.
+Installing assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Installing service MonitorDirectoryService...
+Service MonitorDirectoryService has been successfully installed.
+Creating EventLog source MonitorDirectoryService in log Application...
+Committing assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Uninstalling assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Removing EventLog source MonitorDirectoryService.
+Service MonitorDirectoryService is being removed from the system...
+Service MonitorDirectoryService was successfully removed from the system.
+Installing assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Installing service MonitorDirectoryService...
+Service MonitorDirectoryService has been successfully installed.
+Creating EventLog source MonitorDirectoryService in log Application...
+Committing assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Uninstalling assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Removing EventLog source MonitorDirectoryService.
+Service MonitorDirectoryService is being removed from the system...
+Service MonitorDirectoryService was successfully removed from the system.
+Installing assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Installing service MonitorDirectoryService...
+Service MonitorDirectoryService has been successfully installed.
+Creating EventLog source MonitorDirectoryService in log Application...
+Committing assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Installing assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Installing service MonitorDirectoryService...
+Creating EventLog source MonitorDirectoryService in log Application...
+Rolling back assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Restoring event log to previous state for source MonitorDirectoryService.
+Installing assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Installing service MonitorDirectoryService...
+Creating EventLog source MonitorDirectoryService in log Application...
+Rolling back assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Restoring event log to previous state for source MonitorDirectoryService.
+Installing assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Installing service MonitorDirectoryService...
+Creating EventLog source MonitorDirectoryService in log Application...
+Rolling back assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Restoring event log to previous state for source MonitorDirectoryService.
+Uninstalling assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Removing EventLog source MonitorDirectoryService.
+Service MonitorDirectoryService is being removed from the system...
+Service MonitorDirectoryService was successfully removed from the system.
+Installing assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Installing service MonitorDirectoryService...
+Service MonitorDirectoryService has been successfully installed.
+Creating EventLog source MonitorDirectoryService in log Application...
+Committing assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Uninstalling assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Removing EventLog source MonitorDirectoryService.
+Service MonitorDirectoryService is being removed from the system...
+Service MonitorDirectoryService was successfully removed from the system.
+Installing assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Installing service MonitorDirectoryService...
+Service MonitorDirectoryService has been successfully installed.
+Creating EventLog source MonitorDirectoryService in log Application...
+Committing assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Uninstalling assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Removing EventLog source MonitorDirectoryService.
+Service MonitorDirectoryService is being removed from the system...
+Service MonitorDirectoryService was successfully removed from the system.
+Installing assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+Installing service MonitorDirectoryService...
+Service MonitorDirectoryService has been successfully installed.
+Creating EventLog source MonitorDirectoryService in log Application...
+Committing assembly 'C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.InstallLog
+   assemblypath = C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe

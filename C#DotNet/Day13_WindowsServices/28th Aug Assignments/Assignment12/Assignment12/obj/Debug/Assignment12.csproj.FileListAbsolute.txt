@@ -1,0 +1,13 @@
+c:\users\deodhar_r\documents\visual studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe.config
+c:\users\deodhar_r\documents\visual studio 2015\Projects\Assignment12\Assignment12\obj\Debug\Assignment12.csprojResolveAssemblyReference.cache
+c:\users\deodhar_r\documents\visual studio 2015\Projects\Assignment12\Assignment12\obj\Debug\Assignment12.ProjectInstaller.resources
+c:\users\deodhar_r\documents\visual studio 2015\Projects\Assignment12\Assignment12\obj\Debug\Assignment12.MonitorDirectoryService.resources
+c:\users\deodhar_r\documents\visual studio 2015\Projects\Assignment12\Assignment12\obj\Debug\Assignment12.csproj.GenerateResource.Cache
+c:\users\deodhar_r\documents\visual studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe
+c:\users\deodhar_r\documents\visual studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.pdb
+c:\users\deodhar_r\documents\visual studio 2015\Projects\Assignment12\Assignment12\obj\Debug\Assignment12.exe
+c:\users\deodhar_r\documents\visual studio 2015\Projects\Assignment12\Assignment12\obj\Debug\Assignment12.pdb
+C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.exe.manifest
+C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\bin\Debug\Assignment12.application
+C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\obj\Debug\Assignment12.exe.manifest
+C:\Users\deodhar_r\Documents\Visual Studio 2015\Projects\Assignment12\Assignment12\obj\Debug\Assignment12.application

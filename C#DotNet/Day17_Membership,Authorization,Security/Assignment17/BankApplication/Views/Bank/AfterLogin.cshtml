@@ -1,0 +1,10 @@
+﻿@model BankApplication.UserAccountDetail
+
+@{
+    ViewBag.Title = "AfterLogin";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>AfterLogin</h2>
+
+<span>@string.Format("Welcome " + @Model.Username)</span>
