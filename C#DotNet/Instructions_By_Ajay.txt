@@ -1,0 +1,20 @@
+Request you all to follow below while submitting you assignments.
+
+1.	Install GitHub, sign up, create a repository (directory or project) – one per topic is recommended
+2.	Invite the trainer of each topic after you submit your assignment, prefer to invite only for the directory / repository wise and not to entire account
+3.	Install SourceTree client that will allow you to sync and “push” your assignments’ code onto GitHub repository (directory or project)
+4.	While pushing your code follow below process:
+a.	Do not just commit your code
+b.	Instead, invite the trainer to review it by raising a pull request
+
+If not aware, kindly discover above process (Google, YouTube etc.) yourself.
+
+The reason I am asking you follow GitHub and pull request process is more often than not this process is followed by each client we work with.
+And we want to fail fast internally, learn fast… and not fumble in front of our valued customers ??
+
+And above all, GitHub is the most preferred source control and is great to know it upfront.
+
+I will try to stop by in a day or two to oversee this.
+
+Thanks,
+Ajay
